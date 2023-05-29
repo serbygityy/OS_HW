@@ -1,0 +1,152 @@
+[1;35mTesting ping...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'ECHO'
+[TESTER] received string 'ECHO'
+[TESTER] received number 46940
+[TESTER] received string 'VARIANT'
+[TESTER] sending string 'EXIT'
+Test score: 10 / 10
+[1;35mTesting shm1...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 1398620
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'EXIT'
+Test score: 10 / 10
+[1;35mTesting shm_write...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 1398620
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'WRITE_TO_SHM'
+[TESTER] sending number 11181
+[TESTER] sending number 8598474
+[TESTER] sending string 'EXIT'
+Test score: 3 / 10
+[1;35mTesting map_inexistent...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/XSXjAApuSqz3.oZT'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'ERROR'
+[TESTER] sending string 'EXIT'
+Test score: 5 / 5
+[1;35mTesting map1...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/8yjVjizn6m.wUf'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'EXIT'
+Test score: 5 / 5
+[1;35mTesting read_offset...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 1398620
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/8yjVjizn6m.wUf'
+[TESTER] sending string 'EXIT'
+Test score: 2 / 10
+[1;35mTesting read_section...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 1398620
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/m29AoAHtGL.ZPO'
+[TESTER] sending string 'EXIT'
+Test score: 1 / 10
+[1;35mTesting read_logical...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 1398620
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/z0bHxlPUCF.QSM'
+[TESTER] sending string 'EXIT'
+Test score: 1 / 10
+
+Total score: 37 / 70
+Assignment grade: 52.86 / 100
+[1;35mTesting ping...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'ECHO'
+[TESTER] received string 'ECHO'
+[TESTER] received number 46940
+[TESTER] received string 'VARIANT'
+[TESTER] sending string 'EXIT'
+Test score: 10 / 10
+[1;35mTesting shm1...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 1398620
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'EXIT'
+Test score: 10 / 10
+[1;35mTesting shm_write...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 1398620
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'WRITE_TO_SHM'
+[TESTER] sending number 11181
+[TESTER] sending number 8598474
+[TESTER] sending string 'EXIT'
+Test score: 3 / 10
+[1;35mTesting map_inexistent...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/XSXjAApuSqz3.oZT'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'ERROR'
+[TESTER] sending string 'EXIT'
+Test score: 5 / 5
+[1;35mTesting map1...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/8yjVjizn6m.wUf'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'EXIT'
+Test score: 5 / 5
+[1;35mTesting read_offset...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 1398620
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/8yjVjizn6m.wUf'
+[TESTER] sending string 'EXIT'
+Test score: 2 / 10
+[1;35mTesting read_section...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 1398620
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/m29AoAHtGL.ZPO'
+[TESTER] sending string 'EXIT'
+Test score: 1 / 10
+[1;35mTesting read_logical...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 1398620
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/z0bHxlPUCF.QSM'
+[TESTER] sending string 'EXIT'
+Test score: 1 / 10
+
+Total score: 37 / 70
+Assignment grade: 52.86 / 100
